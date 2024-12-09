@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Criado por Amanda para atividade prática -->
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Souza | Desenvolvedora Backend</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Importação de fonte e icones via awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Barra de navegação -->
+    <header class="header">
+        <a href="../index.html" class="logo">Amanda</a>
+
+        <i class="fa-solid fa-bars" id="icone-menu"></i>
+
+        <nav class="barra-de-nav">
+            <a href="../index.html" class="ativo">Inicio</a>
+            <a href="/html/about.html">Sobre mim</a>
+            <a href="/html/education.html">Formação</a>
+            <a href="/html/projetos.html">Projetos</a>
+            <a href="/html/contato.html">Contato</a>
+        </nav>
+
+    </header>
+
+    <!-- Página de Contato -->
+    <section class="contato" id="contato">
+        <div class="container-titulo">
+            <h2 class="titulo-pagContato">Fale <span>comigo:</span></h2>
+        <div class="icones-rdsociais">
+            <a href="https://www.linkedin.com/in/amandaa-souza" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/amy.soliver/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/amandytta" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        </div>
+        <div class="container-msg">
+            <form action="/path/to/form/handler" method="post" class="formContato">
+                <div class="caixa-de-entrada">
+                    <input type="text" name="nome" placeholder="Nome e Sobrenome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="number" name="telefone" placeholder="Número de Telefone" required>
+                    <input type="text" name="assunto" placeholder="Assunto" required>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva aqui sua mensagem..."></textarea>
+                <br>
+                <input type="submit" value="Enviar" class="botao">
+            </form>
+        </div>
+    </section>
+
+    <!-- Animação do site -->
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
